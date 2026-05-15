@@ -17,7 +17,31 @@ Penelitian ini bertujuan untuk mengetahui tingkat kepuasan mahasiswa terhadap la
 
 Penelitian ini menggunakan teknik nonprobability sampling dengan metode convenience sampling. Responden penelitian berjumlah 45 mahasiswa yang pernah berbelanja menggunakan Shopee. Data dikumpulkan melalui kuesioner dengan 10 pernyataan menggunakan skala Likert 1–5. Analisis data dilakukan secara deskriptif untuk menggambarkan penilaian responden terhadap kualitas layanan Shopee, tingkat kepuasan, dan niat untuk menggunakan kembali aplikasi Shopee.
 
-##HASIL
+## VARIABEL PENELITIAN
+Variabel yang digunakan dalam penelitian ini yaitu:
+### VARIABEL X
+#### X1. KEMUDAHAN PENGGUNA
+1. P1 (Aplikasi Shopee mudah digunakan).
+2. P2 (Menu dan fitur Shopee mudah dipahami).
+#### X2. Efisien Sistem
+3. P3 (Transaksi di Shopee berjalan dengan cepat).
+#### X3. Kualitas Informasi
+4. P4 (Informasi produk di Shopee mudah dipahami).
+#### X4. Kelengkapan Produk
+5. P5 (Shopee menyediakan banyak pilihan produk).
+#### X5. Keamanan Transkasi
+6. P6 (Saya merasa aman saat bertransaksi di Shopee).
+#### X6. Kemudahan Pembayaran
+7. P7 (Metode  pembayaran Shopee memudahkan pengguna).
+#### X7 Daya Tarik Promosi
+8. P8 (Promo dan diskon Shopee menarik bagi saya).
+### VARIABEL Y
+#### Y1 Kepuasan Pengguna
+9. P9 (Saya puas menggunakan layanan Shopee).
+#### Y2 Niat Menggunakan Kembali
+10. P10 (Saya akan menggunkan Shopee kembali untuk berbelanja).
+
+## HASIL
 ### Uji Validitas
 
 Uji validitas dilakukan untuk mengetahui apakah setiap item pernyataan pada kuesioner mampu mengukur aspek yang ingin diteliti. Pengujian dilakukan dengan melihat korelasi antara skor masing-masing item dengan skor total. Suatu item dinyatakan valid apabila memiliki nilai signifikansi kurang dari 0,05.
@@ -25,3 +49,29 @@ Uji validitas dilakukan untuk mengetahui apakah setiap item pernyataan pada kues
 Hasil uji validitas menunjukkan bahwa seluruh item pernyataan (P1 sampai P10) memiliki nilai signifikansi kurang dari 0,05 dengan koefisien korelasi item-total berkisar antara 0,541 hingga 0,857. Dengan demikian, seluruh item dalam kuesioner dinyatakan valid dan layak digunakan dalam analisis selanjutnya.
 
 Output lengkap uji validitas dapat dilihat pada file `Output_SPSS.pdf`.
+### Uji Realibilitas
+
+### Analisis Deskriptif
+Berdasarkan data yang diolah dari SPSS, berikut adalah ringkasan distribusi jawaban responden untuk 10 poin pertanyaan (P1-P10):
+
+| Pertanyaan | Jumlah Responden (N) | Skor Dominan | Persentase |
+|------------|----------------------|--------------|------------|
+| P1         | 44                   | 5            | 47.7%      |
+| P2         | 44                   | 4            | 54.5%      |
+| P3         | 44                   | 4            | 45.5%      |
+| P4         | 44                   | 4            | 56.8%      |
+| P5         | 44                   | 5            | 65.9%      |
+| P6         | 44                   | 4            | 52.3%      |
+| P7         | 44                   | 4            | 61.4%      |
+| P8         | 44                   | 5            | 47.7%      |
+| P9         | 44                   | 5            | 45.5%      |
+| P10        | 44                   | 5            | 56.8%      |
+
+*Catatan: Skor menggunakan skala Likert 1-5.*
+
+Berdasarkan hasil pengolahan data menggunakan IBM SPSS terhadap 44 responden, secara umum terlihat bahwa kecenderungan jawaban responden berada pada kategori yang sangat positif. Hal ini dibuktikan dengan dominasi pilihan skor 4 (Setuju) dan skor 5 (Sangat Setuju) pada hampir seluruh butir pertanyaan (P1 hingga P10).
+
+Temuan yang paling signifikan terdapat pada butir pertanyaan **P5**, yang mencatatkan tingkat persetujuan tertinggi dengan persentase sebesar **65,9%** pada kategori Sangat Setuju. Hal ini mengindikasikan bahwa indikator pada P5 merupakan variabel yang paling kuat dipersepsikan oleh responden dalam survei ini.
+
+Dari sisi kualitas data, seluruh kuesioner terisi secara lengkap tanpa adanya data yang hilang (*missing value*), sehingga total 44 sampel dapat dianalisis secara valid. Meskipun terdapat sedikit variasi jawaban pada skor rendah (1 dan 2) di beberapa poin pertanyaan, hal tersebut tidak mengubah tren positif secara keseluruhan. Hasil analisis deskriptif ini memberikan landasan data yang kuat sebelum dilakukan proses perhitungan estimasi awal (*Naive Estimation*) dan penyesuaian bobot (*Weighting*) pada tahap berikutnya.
+
