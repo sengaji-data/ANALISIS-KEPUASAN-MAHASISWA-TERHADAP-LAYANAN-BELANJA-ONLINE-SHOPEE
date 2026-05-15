@@ -75,3 +75,43 @@ Temuan yang paling signifikan terdapat pada butir pertanyaan **P5**, yang mencat
 
 Dari sisi kualitas data, seluruh kuesioner terisi secara lengkap tanpa adanya data yang hilang (*missing value*), sehingga total 44 sampel dapat dianalisis secara valid. Meskipun terdapat sedikit variasi jawaban pada skor rendah (1 dan 2) di beberapa poin pertanyaan, hal tersebut tidak mengubah tren positif secara keseluruhan. Hasil analisis deskriptif ini memberikan landasan data yang kuat sebelum dilakukan proses perhitungan estimasi awal (*Naive Estimation*) dan penyesuaian bobot (*Weighting*) pada tahap berikutnya.
 
+## Naive Estimation 
+Pada tahap ini, dilakukan perhitungan estimasi awal secara langsung dari data sampel tanpa mempertimbangkan perbedaan proporsi populasi. Langkah ini bertujuan untuk melihat gambaran kasar tingkat kepuasan responden secara keseluruhan.
+
+- **Rumus:** $\hat{P} = \frac{\text{Jumlah Setuju}}{\text{Total Responden}}$
+- **Perhitungan:** $\hat{P} = \frac{44}{48}$
+- **Hasil:** **91,67%**
+
+Angka 91,67% menunjukkan bahwa secara umum, sebagian besar responden dalam sampel sudah merasa puas. Namun, angka ini belum sepenuhnya akurat karena belum memperhitungkan distribusi jenis kelamin yang tidak seimbang antara sampel dan populasi asli.
+
+---
+
+## Weighting Sederhana 
+Proses *weighting* dilakukan untuk menyeimbangkan kontribusi suara antara responden laki-laki dan perempuan agar sesuai dengan proporsi populasi yang sebenarnya (Total 154 orang).
+
+- **Bobot Laki-laki ($w_1$):** 0,5500
+- **Bobot Perempuan ($w_2$):** 1,2468
+
+Karena jumlah perempuan di populasi asli jauh lebih banyak (80,52%), maka responden perempuan diberikan bobot yang lebih besar ($w > 1$). Sebaliknya, karena laki-laki di sampel sudah terlalu banyak dibanding aslinya, maka bobotnya diperkecil ($w < 1$) agar hasil akhir tidak mengalami bias.
+
+---
+
+## Perbandingan Hasil Estimasi 
+Tahap ini menyajikan perbandingan nilai akhir untuk melihat sejauh mana proses pembobotan mengubah hasil estimasi awal.
+
+| Metode Estimasi | Skor Persentase |
+| :--- | :--- |
+| **Naive Estimation** | 91,67% |
+| **Weighted Estimation** | **92,86%** |
+
+Terjadi kenaikan sebesar **1,19%** setelah dilakukan *weighting*. Hal ini membuktikan bahwa kelompok perempuan cenderung memberikan penilaian yang lebih positif. Dengan menggunakan *Weighted Estimation*, hasil penelitian menjadi lebih valid dan representatif dalam menggambarkan kepuasan seluruh populasi mahasiswa yang menjadi target survei.
+
+---
+### 9. Visualisasi Perbandingan Estimasi (Tahap 9)
+
+Berikut adalah grafik perbandingan antara hasil *Naive Estimation* dengan *Weighted Estimation*:
+
+![Grafik Perbandingan Estimasi](link_foto_grafik_kamu_di_sini.png)
+
+**Analisis Grafik:**
+Grafik di atas menunjukkan adanya kenaikan nilai estimasi setelah dilakukan proses pembobotan. Hal ini membuktikan bahwa penyesuaian terhadap proporsi populasi (terutama kelompok perempuan yang dominan) memberikan gambaran tingkat kepuasan yang lebih akurat dibandingkan hanya menggunakan data sampel mentah.
