@@ -76,7 +76,7 @@ Temuan yang paling signifikan terdapat pada butir pertanyaan **P5**, yang mencat
 
 Dari sisi kualitas data, seluruh kuesioner terisi secara lengkap tanpa adanya data yang hilang (*missing value*), sehingga total 44 sampel dapat dianalisis secara valid. Meskipun terdapat sedikit variasi jawaban pada skor rendah (1 dan 2) di beberapa poin pertanyaan, hal tersebut tidak mengubah tren positif secara keseluruhan. Hasil analisis deskriptif ini memberikan landasan data yang kuat sebelum dilakukan proses perhitungan estimasi awal (*Naive Estimation*) dan penyesuaian bobot (*Weighting*) pada tahap berikutnya.
 
-## 6. Naive Estimation (Tahap 6)
+## Naive Estimation 
 Pada tahap ini, dilakukan perhitungan estimasi awal secara langsung dari data sampel tanpa mempertimbangkan perbedaan proporsi populasi. Langkah ini bertujuan untuk melihat gambaran kasar tingkat kepuasan responden secara keseluruhan.
 
 - **Rumus:** $\hat{P} = \frac{\text{Jumlah Setuju}}{\text{Total Responden}}$
@@ -87,7 +87,7 @@ Pada tahap ini, dilakukan perhitungan estimasi awal secara langsung dari data sa
 
 ---
 
-## 7. Weighting Sederhana (Tahap 7)
+## Weighting Sederhana
 Proses *weighting* dilakukan untuk menyeimbangkan kontribusi suara antara responden laki-laki dan perempuan agar sesuai dengan proporsi populasi yang sebenarnya (Total 154 orang: 30 Laki-laki, 124 Perempuan).
 
 - **Bobot Laki-laki ($w_1$):** 0,5500
@@ -97,7 +97,7 @@ Proses *weighting* dilakukan untuk menyeimbangkan kontribusi suara antara respon
 
 ---
 
-## 8. Perbandingan Hasil Estimasi (Tahap 8)
+## Perbandingan Hasil Estimasi 
 Tahap ini menyajikan perbandingan nilai akhir untuk melihat dampak dari proses pembobotan terhadap akurasi data.
 
 | Metode Estimasi | Hasil Persentase |
