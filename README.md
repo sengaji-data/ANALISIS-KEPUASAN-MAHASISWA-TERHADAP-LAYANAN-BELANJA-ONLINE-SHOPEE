@@ -16,3 +16,12 @@ Penelitian ini bertujuan untuk mengetahui tingkat kepuasan mahasiswa terhadap la
 ## Metode
 
 Penelitian ini menggunakan teknik nonprobability sampling dengan metode convenience sampling. Responden penelitian berjumlah 45 mahasiswa yang pernah berbelanja menggunakan Shopee. Data dikumpulkan melalui kuesioner dengan 10 pernyataan menggunakan skala Likert 1–5. Analisis data dilakukan secara deskriptif untuk menggambarkan penilaian responden terhadap kualitas layanan Shopee, tingkat kepuasan, dan niat untuk menggunakan kembali aplikasi Shopee.
+
+##HASIL
+### Uji Validitas
+
+Uji validitas dilakukan untuk mengetahui apakah setiap item pernyataan pada kuesioner mampu mengukur aspek yang ingin diteliti. Pengujian dilakukan dengan melihat korelasi antara skor masing-masing item dengan skor total. Suatu item dinyatakan valid apabila memiliki nilai signifikansi kurang dari 0,05.
+
+Hasil uji validitas menunjukkan bahwa seluruh item pernyataan (P1 sampai P10) memiliki nilai signifikansi kurang dari 0,05 dengan koefisien korelasi item-total berkisar antara 0,541 hingga 0,857. Dengan demikian, seluruh item dalam kuesioner dinyatakan valid dan layak digunakan dalam analisis selanjutnya.
+
+Output lengkap uji validitas dapat dilihat pada file `Output_SPSS.pdf`.
