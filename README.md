@@ -48,8 +48,9 @@ Uji validitas dilakukan untuk mengetahui apakah setiap item pernyataan pada kues
 
 Hasil uji validitas menunjukkan bahwa seluruh item pernyataan (P1 sampai P10) memiliki nilai signifikansi kurang dari 0,05 dengan koefisien korelasi item-total berkisar antara 0,541 hingga 0,857. Dengan demikian, seluruh item dalam kuesioner dinyatakan valid dan layak digunakan dalam analisis selanjutnya.
 
-Output lengkap uji validitas dapat dilihat pada file `Output_SPSS.pdf`.
-### Uji Realibilitas
+### Uji Reliabilitas
+
+Uji reliabilitas dilakukan untuk mengetahui tingkat konsistensi instrumen penelitian. Hasil pengujian menunjukkan bahwa kuesioner memiliki nilai Cronbach’s Alpha sebesar 0,926 dengan jumlah 10 item pernyataan. Karena nilai Cronbach’s Alpha lebih besar dari 0,70, maka seluruh item dalam kuesioner dinyatakan reliabel dan memiliki tingkat konsistensi yang sangat baik.
 
 ### Analisis Deskriptif
 Berdasarkan data yang diolah dari SPSS, berikut adalah ringkasan distribusi jawaban responden untuk 10 poin pertanyaan (P1-P10):
